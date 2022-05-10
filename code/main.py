@@ -1,7 +1,5 @@
-import pygame as pg
-import sys
+import pygame, sys
 from settings import *
-from debug import debug
 from level import Level
 
 
@@ -9,23 +7,23 @@ class Game:
     def __init__(self):
 
         # general setup
-        pg.init()
-        self.screen = pg.display.set_mode((WIDTH, HEIGHT))
-        pg.display.set_caption('An isometric adventure')
-        self.clock = pg.time.Clock()
+        pygame.init()
+        self.screen = pygame.display.set_mode((WIDTH, HEIGTH))
+        pygame.display.set_caption('Nifda -- An isometric adventure!')
+        self.clock = pygame.time.Clock()
 
         self.level = Level()
 
     def run(self):
         while True:
-            for event in pg.event.get():
-                if event.type == pg.QUIT:
-                    pg.quit()
+            for event in pygame.event.get():
+                if event.type == pygame.QUIT:
+                    pygame.quit()
                     sys.exit()
 
             self.screen.fill('black')
             self.level.run()
-            pg.display.update()
+            pygame.display.update()
             self.clock.tick(FPS)
 
 
