@@ -1,14 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a07d9d7b-451f-45c2-9c7f-30cc7321137b" name="Changes" comment="Map and collisions.">
-      <change afterPath="$PROJECT_DIR$/code/weapon.py" afterDir="false" />
+    <list default="true" id="a07d9d7b-451f-45c2-9c7f-30cc7321137b" name="Changes" comment="Attacks and animations.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/level.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/level.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/code/player.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/player.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/tile.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/tile.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,15 +22,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "/home/j/PycharmProjects/IsometricRPG/map",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/j/PycharmProjects/IsometricRPG/map&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/map" />
@@ -188,7 +183,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652222618605</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Attacks and animations.">
+      <created>1652632290959</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1652632290959</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -205,6 +207,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Map and collisions." />
-    <option name="LAST_COMMIT_MESSAGE" value="Map and collisions." />
+    <MESSAGE value="Attacks and animations." />
+    <option name="LAST_COMMIT_MESSAGE" value="Attacks and animations." />
   </component>
 </project>

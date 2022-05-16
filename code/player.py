@@ -49,19 +49,19 @@ class Player(pg.sprite.Sprite):
             keys = pg.key.get_pressed()
 
             # movement input
-            if keys[pg.K_w]:
+            if keys[pg.K_w] or keys[pg.K_UP]:
                 self.direction.y = -1
                 self.status = 'up'
-            elif keys[pg.K_s]:
+            elif keys[pg.K_s] or keys[pg.K_DOWN]:
                 self.direction.y = 1
                 self.status = 'down'
             else:
                 self.direction.y = 0
 
-            if keys[pg.K_d]:
+            if keys[pg.K_d] or keys[pg.K_RIGHT]:
                 self.direction.x = 1
                 self.status = 'right'
-            elif keys[pg.K_a]:
+            elif keys[pg.K_a] or keys[pg.K_LEFT]:
                 self.direction.x = -1
                 self.status = 'left'
             else:
